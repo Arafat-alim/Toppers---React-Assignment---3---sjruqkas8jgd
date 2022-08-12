@@ -56,7 +56,7 @@ class App extends Component {
 					   				</div>
 					   				<div className="percent">
 					   					 //Write code to display percentage upto 2 decimal places
-										 {(item.percent).toFixed(2)}
+										 {parseFloat(item.percent).toFixed(2)}
 					   				</div>
 				   				</div>
 				   				);
