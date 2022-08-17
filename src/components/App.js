@@ -55,7 +55,7 @@ class App extends Component {
 					   				</div>
 					   				<div className="percent">
 					   					 {/* //Write code to display percentage upto 2 decimal places */}
-										 {new Number(item.percent).toPrecision(2)}
+										 {Math.round(item.percent)}
 					   				</div>
 				   				</div>
 				   				);
